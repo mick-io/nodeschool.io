@@ -7,7 +7,9 @@ if (!fpath) {
 }
 
 fs.readFile(fpath, "utf-8", (err, data) => {
-  if (err) throw err;
+  if (err) {
+    console.error(err);
+  }
   const nLines = data.split("\n").length - 1;
   process.stdout.write(nLines + "\n");
 });
