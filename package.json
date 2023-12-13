@@ -15,6 +15,7 @@
     "prettier": "^3.1.0"
   },
   "dependencies": {
-    "strftime": "^0.10.2"
+    "strftime": "^0.10.2",
+    "through2-map": "^3.0.0"
   }
 }
